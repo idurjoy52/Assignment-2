@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Typography */
+h2 {
+    font-weight: 700;
+}
+h3 {
+    font-weight: 700;
+}
+.colored-text1 {
+    color: #d15427
+}
+.colored-text2 {
+    color: #1EB37A;
+}
+.light-colored-text {
+    color: #636e72;
+}
+/* Container */
+.container {
+    padding-bottom: 60px;
+}
+/* Header Area */
+.header-area {
+    background-color: #f1fff0;
+    padding: 20px;
+}
+.header-area .logo {
+    width: 100px;
+    height: auto;
+}
+
+/* Green Button */
+.green-button,
+.navbar-light .navbar-nav .green-button {
+    color: white;
+    background-color: #1EB37A;
+    border-radius: 15px;
+    transition: .5s;
+    padding: 10px 20px;
+}
+.green-button:hover,
+.navbar-light .navbar-nav .green-button:hover {
+       background-color: #27ae60;
+}
+/* Banner Area */
+.banner-area {
+    background-color: #f1fff0;
+    padding: 20px 40px;
+}
+/* About Us Area */
+.about-us {
+    padding: 40px 0;
+}
+.about-us img {
+    height: 150px;
+    width: 150px;
+}
+.about-us .card {
+    padding: 20px 0;
+    background-color: #f1fff0;
+    border: none;
+    margin-bottom: 15px;
+}
+.about-us .card:hover {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.about-us a {
+    color: #636e72;
+}
+/* Course Area */
+.course-area .heading {
+    margin: 50px 0;
+    color: #413960;
+}
+.course-area .card {
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
+.cardFooter {
+    margin: 20px 0;
+}
+/* Testimonial Area */
+.testimonial h3 {
+    margin: 50px 0;
+}
+.testimonial img {
+    width: 160px;
+    height: 160px;
+}
+/* Blog Area */
+.blog-area {
+    background-color: #f1fff0;
+    padding: 40px 0;
+}
+.blog-area .heading {
+    margin-bottom: 50px;
+    color: #413960;
+}
+.blog-area img {
+    width: 100%;
+    height: 202px
+}
+.blog-area .card {
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Footer Area */
+.footer-area {
+    background-color: #282531;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+.footer-area a {
+    color: #ffffff;
+    font-size: 14px;
+}
+.footer-area p{
+    font-size: 14px;
+}
+.footer-area .light-colored-text {
+    margin-top: 40px;
+}
